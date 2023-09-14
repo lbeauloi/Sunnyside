@@ -148,7 +148,7 @@ h2, h3 {
 @media screen and (min-width: 768px) {
   .section__transform {
     display: grid;
-    grid-template-areas: "oeuf titre" "oeuf texte" "oeuf boutton";
+    grid-template-areas: "oeuf titre" "oeuf texte" "oeuf bouton";
   }
   .section__transform img {
     grid-area: oeuf;
@@ -161,6 +161,23 @@ h2, h3 {
     grid-area: texte;
   }
   .section__transform .transform__link {
-    grid-area: boutton;
+    grid-area: bouton;
+  }
+  .section__stand-out {
+    display: grid;
+    grid-template-areas: "titre verre" "texte verre" "bouton verre";
+  }
+  .section__stand-out img {
+    grid-area: verre;
+    width: 50vw;
+  }
+  .section__stand-out p {
+    grid-area: texte;
+  }
+  .section__stand-out .title--little {
+    grid-area: titre;
+  }
+  .section__stand-out .stand-out__link {
+    grid-area: bouton;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -168,7 +168,7 @@ h2,h3{
         display: grid;
         grid-template-areas: "oeuf titre"
                              "oeuf texte"
-                             "oeuf boutton";
+                             "oeuf bouton";
         img{
             grid-area: oeuf;
             width: 50vw;
@@ -180,7 +180,29 @@ h2,h3{
             grid-area: texte;
         }
         .transform__link{
-            grid-area: boutton;
+            grid-area: bouton;
+        }
+    }
+
+    .section__stand-out{
+        display: grid;
+        grid-template-areas: "titre verre"
+                             "texte verre"
+                             "bouton verre";
+        img{
+            grid-area: verre;
+            width: 50vw;
+        }
+
+        p{
+            grid-area: texte;
+        }
+
+        .title--little{
+            grid-area: titre;
+        }
+        .stand-out__link{
+            grid-area: bouton;
         }
     }
 }
