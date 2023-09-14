@@ -1,0 +1,25 @@
+header {
+  background-image: url(resources/images/photos/image-header.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+}
+header h1 {
+  text-align: center;
+  padding-top: 30%;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+}
+header img {
+  padding-top: 35px;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,166 @@
+.p--normal {
+  padding: 50px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: #898891;
+  line-height: 2rem;
+}
+
+.p--name {
+  font-family: "Fraunces", serif;
+  color: #202A35;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.p--job {
+  font-family: "Barlow", sans-serif;
+  color: #d9d5d7;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  color: #202A35;
+}
+
+h3 {
+  color: #A9A8A6;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+h2, h3 {
+  font-family: "Fraunces", serif;
+  padding: 40px;
+}
+
+.p--bg {
+  padding: 10px 25px 50px 25px;
+  font-family: "Barlow", sans-serif;
+}
+
+.p--testimonial {
+  font-family: "Barlow", sans-serif;
+  padding: 25px;
+  line-height: 1.5em;
+}
+
+.main__link {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #202A35;
+}
+
+.section__transform {
+  background-color: #FFFBF8;
+}
+.section__transform--img {
+  width: 100vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section__transform .transform__link {
+  border-bottom: 5px solid #FDF1C1;
+}
+
+.section__stand-out,
+.section__graphic-design {
+  border-top: 50px solid #FFFBF8;
+}
+
+.section__stand-out {
+  background-color: #FFFBF8;
+}
+.section__stand-out--img {
+  width: 100vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section__stand-out .stand-out__link {
+  border-bottom: 5px solid #FCDAD3;
+}
+
+.section__graphic-design {
+  background-image: url(resources/images/photos/image-graphic-design.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: hsl(167, 40%, 24%);
+}
+
+.section__photography {
+  background-image: url(resources/images/photos/image-photography.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: hsl(198, 62%, 26%);
+}
+
+.section__testimonial {
+  background-color: #FFFBF8;
+}
+.section__testimonial--emily, .section__testimonial--thomas, .section__testimonial--jennie {
+  padding: 20px;
+}
+.section__testimonial--emily img, .section__testimonial--thomas img, .section__testimonial--jennie img {
+  border-radius: 50%;
+  width: 25%;
+}
+.section__testimonial--jennie {
+  padding-bottom: 72px;
+}
+
+.section__gallery {
+  display: grid;
+  grid-template-areas: "image1 image2" "image3 image4";
+}
+.section__gallery .gallery__milkbottles {
+  grid-area: image1;
+}
+.section__gallery .galelery__orange {
+  grid-area: image2;
+}
+.section__gallery .gallery__cone {
+  grid-area: image3;
+}
+.section__gallery .gallery__sugarcubes {
+  grid-area: image4;
+}
+.section__gallery img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .section__transform {
+    display: grid;
+    grid-template-areas: "oeuf titre" "oeuf texte" "oeuf boutton";
+  }
+  .section__transform img {
+    grid-area: oeuf;
+    width: 50vw;
+  }
+  .section__transform .title--little {
+    grid-area: titre;
+  }
+  .section__transform p {
+    grid-area: texte;
+  }
+  .section__transform .transform__link {
+    grid-area: boutton;
+  }
+}/*# sourceMappingURL=main.css.map */

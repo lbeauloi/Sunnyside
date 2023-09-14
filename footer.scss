@@ -1,0 +1,28 @@
+footer{
+    background-color: #90D4C5;
+    width: 100vw;
+    height: 50vh;
+    color: hsl(168, 34%, 41%);
+    .footer__logo{
+        padding: 80px;
+        width: 85%;
+    }
+
+    .footer__textlinks{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Barlow', sans-serif;
+        padding: 0px 25px 110px 25px;
+        a{
+            color: hsl(168, 34%, 41%);
+            font-weight: 700;
+        }
+        
+    }
+
+    .footer__imglinks{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 100px;
+    }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnyside</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <img class="nav__logo" src="resources/images/logo-copie-blanc.svg" alt="">
+            <img class="nav__burgermenu" src="resources/images/icons/icon-hamburger.svg"  alt="">
+        </nav>
+
+        <h1 class="title title--big" >We are creatives</h1>
+        <!-- pas oublier le background -->
+        <img src="resources/images/icons/icon-arrow-down.svg" alt="">
+    </header>
+
+    <main>
+        <section class="section__transform">
+            <img class="section-image section__transform--img " src="resources/images/photos/image-transform.jpg" alt="">
+            <h2 class="title title--little">Transform your brand</h2>
+            <p class="p--normal">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you</p>
+            <a class=" main__link transform__link " href="#">learn more</a>
+        </section>
+
+        <section class="section__stand-out">
+            <img class=" section-stand-out section__stand-out--img" src="resources/images/photos/image-stand-out.jpg" alt="">
+            <h2 class="title title--little">Stand out to the right audience</h2>
+            <p class="p--normal">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+            <a class="main__link stand-out__link" href="#">learn more</a>
+        </section>
+
+        <section class="section__graphic-design">
+            <!-- <img class="graphic-design__img" src="" alt=""> c'est un background donc direct dans le SCSS  -->
+            <h2 class="title title--little">Graphic Design</h2>
+            <p class="p--bg">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </section>
+
+        <section class="section__photography">
+            <h2 class="title title--little">Photography</h2>
+            <p class="p--bg">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </section>
+
+        <section class="section__testimonial">
+            <h3 class="title title--super-little">client testimonials</h3>
+
+            <section class="section__testimonial--emily">
+                <img src="resources/images/people/image-emily.jpg" alt="">
+
+                <p class="p--testimonial"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+
+                <p class="p--name">Emily R.</p>
+                <p class="p--job">Marketing Director</p>
+            </section>
+
+            <section class="section__testimonial--thomas">
+                <img class="testimonial__thomas__img" src="resources/images/people/image-thomas.jpg" alt="">
+                <p class="p--testimonial">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                <p class="p--name">Thomas S.</p>
+                <p class="p--job">Chief Operating Officer</p>
+            </section>
+
+            <section class="section__testimonial--jennie">
+                <img class="testimonial__jennie__img" src="resources/images/people/image-jennie.jpg" alt="">
+                <p class="p--testimonial">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                <p class="p--name">Jennie F.</p>
+                <p class="p--job">Business Owner</p>
+            </section>
+        </section>
+
+        <section class="section__gallery">
+            <img class="gallery__milkbottles" src="resources/images/photos/image-gallery-milkbottles.jpg"   alt="">
+            <img class="gallery__orange" src="resources/images/photos/image-gallery-orange.jpg"   alt="">
+            <img class="gallery__cone" src="resources/images/photos/image-gallery-cone.jpg"   alt="">
+            <img class="gallery__sugarcubes" src="resources/images/photos/image-gallery-sugarcubes.jpg"   alt="">
+        </section>
+    </main>
+
+    <footer>
+        <img class="footer__logo" src="resources/images/logo.svg" alt=""> 
+        <!-- pour changer la couleur du logo (il est en svg) ctrl click sur la source, et ensuite modifier "FILL" par la couleur souhaitée -->
+        <section class="footer__textlinks">
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Projetcs</a>
+        </section>
+
+        <section class="footer__imglinks">
+            <img src="resources/images/icons/icon-facebook.svg" alt="">
+            <img src="resources/images/icons/icon-instagram.svg" alt="">
+            <img src="resources/images/icons/icon-twitter.svg" alt="">
+            <img src="resources/images/icons/icon-pinterest.svg" alt="">
+        </section>
+    </footer>
+
+</body>
+</html>

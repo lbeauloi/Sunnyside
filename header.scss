@@ -1,0 +1,31 @@
+header{
+    background-image: url(resources/images/photos/image-header.jpg);
+
+    // pour centrer le bg utiliser bg size cover (pour que le bg prenne toute la place definie (ici en vw et vh)) peu importe la taille de l'ecran. Ensuite centrer l'image dans la taille dispo (via bg position center) 
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 25px;
+    }
+    
+    h1{
+        text-align: center;
+        padding-top: 30%;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Fraunces', serif;
+        font-size: 40px;
+        letter-spacing: 0.2em;
+        
+    }
+    
+    img{
+        padding-top: 35px;
+    }
+}
