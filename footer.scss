@@ -3,6 +3,7 @@ footer{
     width: 100vw;
     height: 50vh;
     color: hsl(168, 34%, 41%);
+
     .footer__logo{
         padding: 80px;
         width: 85%;
@@ -27,12 +28,46 @@ footer{
     .footer__imglinks{
         display: flex;
         justify-content: space-around;
+        padding: 50px 80px;
+        
     }
 
     @media screen and (min-width: 1440px){
-        footer{
+        .container{
             width: 1440px;
             height: 350px;
         }
+        .footer__logo{
+            width: 300px;
+            padding-top: 50px;
+        }
+        .footer__imglinks{
+            display: flex;
+            justify-content: space-around;
+            padding: 0 600px;
+
+            // ça marche pas, je comprends pas p
+
+            svg{
+                &:hover{
+                fill: white;
+                }
+            }
+            
+        }
+
+        .footer__textlinks{
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Barlow', sans-serif;
+            padding: 0px 500px 100px 500px;
+
+            a{
+                &:hover{
+                color:white;
+                }
+            }
+        }
+    
     }
 } 

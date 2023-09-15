@@ -180,9 +180,31 @@ h2, h3 {
 }
 
 @media screen and (min-width: 1440px) {
+  .p--normal {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.13px;
+  }
+  .p--bg {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.11px;
+    padding: 0px 200px 150px 200px;
+  }
   .section__transform {
     display: grid;
     grid-template-areas: "titre oeuf" "texte oeuf" "bouton oeuf";
+  }
+  .section__transform .transform__link:after {
+    visibility: hidden;
+  }
+  .section__transform h2 {
+    font-size: 40px;
+    line-height: 49.32px;
+    letter-spacing: -0.29px;
+    font-weight: 900;
   }
   .section__transform img {
     grid-area: oeuf;
@@ -201,6 +223,15 @@ h2, h3 {
   .section__stand-out {
     display: grid;
     grid-template-areas: "verre titre" "verre texte" "verre bouton";
+  }
+  .section__stand-out .stand-out__link:after {
+    visibility: hidden;
+  }
+  .section__stand-out h2 {
+    font-size: 40px;
+    line-height: 49.32px;
+    letter-spacing: -0.29px;
+    font-weight: 900;
   }
   .section__stand-out img {
     grid-area: verre;
@@ -222,6 +253,12 @@ h2, h3 {
   .section__testimonial {
     display: grid;
     grid-template-areas: "titre titre titre" "emily thomas jennie";
+  }
+  .section__testimonial h3 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24.66px;
+    letter-spacing: 5px;
   }
   .section__testimonial h3 {
     grid-area: titre;

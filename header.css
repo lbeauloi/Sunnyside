@@ -44,4 +44,42 @@ header img {
   header .nav__desktop {
     visibility: visible;
   }
+  header .nav__desktop .nav__desktop--logo {
+    padding-right: 1200px;
+  }
+  header .nav__desktop .nav__desktop--links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 850px;
+    list-style-type: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.13px;
+    align-items: center;
+  }
+  header .nav__desktop .nav__desktop--links a {
+    color: white;
+  }
+  header .nav__desktop .nav__desktop--links .nav-contact {
+    width: 140px;
+    height: 56px;
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    align-items: center;
+  }
+  header .nav__desktop .nav__desktop--links .nav-contact a {
+    color: black;
+    display: block;
+    padding-top: 15px;
+  }
+  header .nav__desktop .nav__desktop--links .nav-contact:hover {
+    color: white;
+    background-color: #78cef5;
+    border: none;
+  }
 }/*# sourceMappingURL=header.css.map */
