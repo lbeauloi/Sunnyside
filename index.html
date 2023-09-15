@@ -9,9 +9,19 @@
 <body>
 
     <header>
-        <nav class="nav">
-            <img class="nav__logo" src="resources/images/logo-copie-blanc.svg" alt="">
-            <img class="nav__burgermenu" src="resources/images/icons/icon-hamburger.svg"  alt="">
+        <nav class="nav__mobile">
+            <img class="nav__mobile--logo" src="resources/images/logo-copie-blanc.svg" alt="">
+            <img class="nav__mobile--burgermenu" src="resources/images/icons/icon-hamburger.svg"  alt="">
+        </nav>
+
+        <nav class="nav__desktop">
+            <img class="nav__desktop--logo" src="resources/images/logo-copie-blanc.svg" alt="">
+            <ul class="nav__desktop--links">
+                <li class="lien1"><a href="#">About</a></li>
+                <li class="lien2"><a href="#">Services</a></li>
+                <li class="lien3"><a href="#">Projetcs</a></li>
+                <li class="lien4"><a href="#">Contact</a></li>
+            </ul>
         </nav>
 
         <h1 class="title title--big" >We are creatives</h1>
@@ -34,15 +44,17 @@
             <a class="main__link stand-out__link" href="#">learn more</a>
         </section>
 
-        <section class="section__graphic-design">
-            <!-- <img class="graphic-design__img" src="" alt=""> c'est un background donc direct dans le SCSS  -->
-            <h2 class="title title--little">Graphic Design</h2>
-            <p class="p--bg">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-        </section>
-
-        <section class="section__photography">
-            <h2 class="title title--little">Photography</h2>
-            <p class="p--bg">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        <section class="section__graphic-design-photography">
+            <section class="section__graphic-design">
+                <!-- <img class="graphic-design__img" src="" alt=""> c'est un background donc direct dans le SCSS  -->
+                <h2 class="title title--little">Graphic Design</h2>
+                <p class="p--bg">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </section>
+    
+            <section class="section__photography">
+                <h2 class="title title--little">Photography</h2>
+                <p class="p--bg">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </section>
         </section>
 
         <section class="section__testimonial">

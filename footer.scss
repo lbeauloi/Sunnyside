@@ -12,10 +12,14 @@ footer{
         display: flex;
         justify-content: space-around;
         font-family: 'Barlow', sans-serif;
-        padding: 0px 25px 110px 25px;
+        padding: 0px 39px;
+    
         a{
-            color: hsl(168, 34%, 41%);
-            font-weight: 700;
+            color: #458D7E;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: -0.13px;
+            font-size: 18px;
         }
         
     }
@@ -23,6 +27,12 @@ footer{
     .footer__imglinks{
         display: flex;
         justify-content: space-around;
-        padding: 0px 100px;
     }
-}
+
+    @media screen and (min-width: 1440px){
+        footer{
+            width: 1440px;
+            height: 350px;
+        }
+    }
+} 

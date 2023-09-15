@@ -2,8 +2,11 @@
     padding: 50px;
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
-    color: #898891;
+    color: #5B636D;
     line-height: 2rem;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.13px;
 
 }
 
@@ -16,36 +19,55 @@
 
 .p--job{
     font-family: 'Barlow', sans-serif;
-    color: #d9d5d7;
-    font-weight: 700;
+    color: #A7AAAD;
+    font-weight: 600;
     padding-bottom: 30px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    font-size: 14px;
 
 }
 
 h2{
-    font-size: 35px;
-    color: #202A35;
+    font-size: 32px;
+    color: #24303E;
+    font-weight: 900;
+    line-height: 39.46px;
+    letter-spacing: -0.23px;
 }
 
 h3{
     color: #A9A8A6;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19.73px;
 }
 
 h2,h3{
     font-family: 'Fraunces', serif;
     padding: 40px;
+    
 }
 .p--bg{
     padding: 10px 25px 50px 25px;
     font-family: 'Barlow', sans-serif;
+    color: #19536C;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.11px;
+    line-height: 27px;
 }
 
 .p--testimonial{
     font-family: 'Barlow', sans-serif;
     padding: 25px;
-    line-height: 1.5em;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.13px;
+    color: #5B636D;
 }
 
 
@@ -54,18 +76,8 @@ h2,h3{
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #202A35;
+    color: #24303E;
 }
-
-
-// .main__link:after{
-//     content: "";
-//     width: 150px;
-//     height: 5px;
-//     background-color: yellow;
-//     display: block;
-// }
-
 
 .section__transform{
     background-color: #FFFBF8;
@@ -75,14 +87,19 @@ h2,h3{
         object-fit: cover;
     }
     .transform__link{
-        border-bottom: 5px solid #FDF1C1;
+        display: inline-block;
+        padding-bottom: 40px;
+    }
+    .transform__link:after{
+        content: "";
+        width: 137px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #fef2ba;
+        display: block;
     }
 }
 
-.section__stand-out,
-.section__graphic-design{
-    border-top: 50px solid #FFFBF8;
-}
 
 .section__stand-out{
     background-color: #FFFBF8;
@@ -91,9 +108,20 @@ h2,h3{
         height: 50vh;
         object-fit: cover;
     }
+
     .stand-out__link{
-        border-bottom: 5px solid #FCDAD3;
+        display: inline-block;
+        padding-bottom: 40px;
     }
+    .stand-out__link:after{
+        content: "";
+        width: 137px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #ffdbd4;
+        display: block;
+    }
+    
 }
 
 .section__graphic-design{
@@ -163,15 +191,16 @@ h2,h3{
     }
 }
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 1440px) { 
     .section__transform{
         display: grid;
-        grid-template-areas: "oeuf titre"
-                             "oeuf texte"
-                             "oeuf bouton";
+        grid-template-areas: "titre oeuf"
+                             "texte oeuf"
+                             "bouton oeuf";
         img{
             grid-area: oeuf;
             width: 50vw;
+            height: 600px;
         }
         .title--little{
             grid-area: titre;
@@ -186,12 +215,13 @@ h2,h3{
 
     .section__stand-out{
         display: grid;
-        grid-template-areas: "titre verre"
-                             "texte verre"
-                             "bouton verre";
+        grid-template-areas: "verre titre"
+                             "verre texte"
+                             "verre bouton";
         img{
             grid-area: verre;
             width: 50vw;
+            height: 600px;
         }
 
         p{
@@ -204,5 +234,33 @@ h2,h3{
         .stand-out__link{
             grid-area: bouton;
         }
+    }
+    .section__graphic-design-photography{
+        display: flex;
+    }
+
+    .section__testimonial{
+        display: grid;
+        grid-template-areas: "titre titre titre"
+                             "emily thomas jennie";
+
+        h3{
+            grid-area: titre;
+        }
+        &--emily{
+            grid-area: emily;
+        }
+
+        &--thomas{
+            grid-area: thomas;
+        }
+
+        &--jennie{
+            grid-area: jennie;
+        }
+    }
+
+    .section__gallery{
+        display: flex;
     }
 }

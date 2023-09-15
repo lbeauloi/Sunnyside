@@ -8,24 +8,47 @@ header{
     background-size: cover;
     background-position: center;
 
-    .nav{
+    .nav__mobile{
         display: flex;
         justify-content: space-between;
         padding: 0px 25px;
     }
+
+    .nav__desktop{
+        visibility: hidden;
+    }
     
     h1{
-        text-align: center;
-        padding-top: 30%;
         text-transform: uppercase;
         color: white;
         font-family: 'Fraunces', serif;
+        font-weight: 900;
         font-size: 40px;
-        letter-spacing: 0.2em;
-        
+        line-height: 49.32px;
+        letter-spacing: 6.25px;
+        text-align: center;
     }
     
     img{
         padding-top: 35px;
     }
+
+    @media screen and (min-width: 1440px){
+        height: 800px;
+        h1{
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 69.05px;
+            letter-spacing: 8.75px;
+            padding-top: 80px;
+        }
+        .nav__mobile{
+            visibility: hidden;
+        }
+
+        .nav__desktop{
+            visibility: visible;
+        }
+    }
+
 }
