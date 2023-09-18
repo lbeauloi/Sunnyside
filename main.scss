@@ -81,6 +81,14 @@ h2,h3{
 
 .section__transform{
     background-color: #FFFBF8;
+    h2{
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 49.32px;
+        letter-spacing: -0.29px;
+        padding: 30px;
+    }
     &--img{
         width: 100vw;
         height: 50vh;
@@ -103,6 +111,14 @@ h2,h3{
 
 .section__stand-out{
     background-color: #FFFBF8;
+    h2{
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 49.32px;
+        letter-spacing: -0.29px;
+        padding: 30px;
+    }
     &--img{
         width: 100vw;
         height: 50vh;
@@ -135,6 +151,13 @@ h2,h3{
     flex-direction: column;
     justify-content: end;
     color: hsl(167, 40%, 24%);
+    h2{
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 28px;
+        line-height:34.52px;
+        letter-spacing: -0.2px; 
+    }
     
     
 }
@@ -150,10 +173,20 @@ h2,h3{
     flex-direction: column;
     justify-content: end;
     color: hsl(198, 62%, 26%);
+    h2{
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 28px;
+        line-height:34.52px;
+        letter-spacing: -0.2px; 
+    }
 }
 
 .section__testimonial{
     background-color: #FFFBF8;
+    h3{
+        padding: 30px;
+    }
     &--emily,
     &--thomas,
     &--jennie{
@@ -219,6 +252,7 @@ h2,h3{
             line-height: 49.32px;
             letter-spacing: -0.29px;
             font-weight: 900;
+            padding: 30px;
         }
         img{
             grid-area: oeuf;
@@ -250,6 +284,7 @@ h2,h3{
             line-height: 49.32px;
             letter-spacing: -0.29px;
             font-weight: 900;
+            padding: 30px;
         }
         img{
             grid-area: verre;
@@ -271,6 +306,9 @@ h2,h3{
     }
     .section__graphic-design-photography{
         display: flex;
+        h2{
+
+        }
     }
 
     .section__testimonial{
@@ -279,6 +317,7 @@ h2,h3{
             font-size: 20px;
             line-height: 24.66px;
             letter-spacing: 5px;
+            padding: 30px;
         }
         display: grid;
         grid-template-areas: "titre titre titre"

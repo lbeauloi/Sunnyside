@@ -78,6 +78,14 @@ h2, h3 {
 .section__transform {
   background-color: #FFFBF8;
 }
+.section__transform h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 49.32px;
+  letter-spacing: -0.29px;
+  padding: 30px;
+}
 .section__transform--img {
   width: 100vw;
   height: 50vh;
@@ -99,6 +107,14 @@ h2, h3 {
 
 .section__stand-out {
   background-color: #FFFBF8;
+}
+.section__stand-out h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 49.32px;
+  letter-spacing: -0.29px;
+  padding: 30px;
 }
 .section__stand-out--img {
   width: 100vw;
@@ -131,6 +147,13 @@ h2, h3 {
   justify-content: end;
   color: hsl(167, 40%, 24%);
 }
+.section__graphic-design h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 34.52px;
+  letter-spacing: -0.2px;
+}
 
 .section__photography {
   background-image: url(resources/images/photos/image-photography.jpg);
@@ -144,9 +167,19 @@ h2, h3 {
   justify-content: end;
   color: hsl(198, 62%, 26%);
 }
+.section__photography h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 34.52px;
+  letter-spacing: -0.2px;
+}
 
 .section__testimonial {
   background-color: #FFFBF8;
+}
+.section__testimonial h3 {
+  padding: 30px;
 }
 .section__testimonial--emily, .section__testimonial--thomas, .section__testimonial--jennie {
   padding: 20px;
@@ -205,6 +238,7 @@ h2, h3 {
     line-height: 49.32px;
     letter-spacing: -0.29px;
     font-weight: 900;
+    padding: 30px;
   }
   .section__transform img {
     grid-area: oeuf;
@@ -232,6 +266,7 @@ h2, h3 {
     line-height: 49.32px;
     letter-spacing: -0.29px;
     font-weight: 900;
+    padding: 30px;
   }
   .section__stand-out img {
     grid-area: verre;
@@ -259,6 +294,7 @@ h2, h3 {
     font-size: 20px;
     line-height: 24.66px;
     letter-spacing: 5px;
+    padding: 30px;
   }
   .section__testimonial h3 {
     grid-area: titre;
