@@ -242,7 +242,7 @@ h2, h3 {
   }
   .section__transform img {
     grid-area: oeuf;
-    width: 720px;
+    width: 50vw;
     height: 600px;
   }
   .section__transform .title--little {
@@ -270,7 +270,7 @@ h2, h3 {
   }
   .section__stand-out img {
     grid-area: verre;
-    width: 720px;
+    width: 50vw;
     height: 600px;
   }
   .section__stand-out p {
