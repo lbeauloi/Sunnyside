@@ -9,39 +9,55 @@
 <body>
 
     <header>
-        <nav class="nav__mobile">
-            <img class="nav__mobile--logo" src="resources/images/logo-copie-blanc.svg" alt="">
-            <img class="nav__mobile--burgermenu" src="resources/images/icons/icon-hamburger.svg"  alt="">
-        </nav>
+        
+            <nav class="nav__mobile">
+                <img class="nav__mobile--logo" src="resources/images/logo-copie-blanc.svg" alt="">
+                <img class="nav__mobile--burgermenu" src="resources/images/icons/icon-hamburger.svg"  alt="">
+            </nav>
+    
+            <nav class="nav__desktop">
+                <img class="nav__desktop--logo" src="resources/images/logo-copie-blanc.svg" alt="">
+                <ul class="nav__desktop--links">
+                    <li class="nav-about"><a href="#">About</a></li>
+                    <li class="nav-services"><a href="#">Services</a></li>
+                    <li class="nav-projects"><a href="#">Projetcs</a></li>
+                    <li class="nav-contact"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <h1 class="title title--big" >We are creatives</h1>
+            <!-- pas oublier le background -->
+            <img src="resources/images/icons/icon-arrow-down.svg" alt="">
+     
 
-        <nav class="nav__desktop">
-            <img class="nav__desktop--logo" src="resources/images/logo-copie-blanc.svg" alt="">
-            <ul class="nav__desktop--links">
-                <li class="nav-about"><a href="#">About</a></li>
-                <li class="nav-services"><a href="#">Services</a></li>
-                <li class="nav-projects"><a href="#">Projetcs</a></li>
-                <li class="nav-contact"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <h1 class="title title--big" >We are creatives</h1>
-        <!-- pas oublier le background -->
-        <img src="resources/images/icons/icon-arrow-down.svg" alt="">
     </header>
 
     <main>
         <section class="section__transform">
-            <img class="section-image section__transform--img " src="resources/images/photos/image-transform.jpg" alt="">
-            <h2 class="title title--little">Transform your brand</h2>
-            <p class="p--normal">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you</p>
-            <a class=" main__link transform__link " href="#">learn more</a>
+            <div class="left" >
+                <h2 class="title title--little">Transform your brand</h2>
+                <p class="p--normal">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you</p>
+                <a class=" main__link transform__link " href="#">learn more</a>
+            </div>
+            <div class="right">
+                <img class="section-image section__transform--img " src="resources/images/photos/image-transform.jpg" alt="">
+            </div>
+            
+           
+            
         </section>
 
         <section class="section__stand-out">
-            <img class=" section-stand-out section__stand-out--img" src="resources/images/photos/image-stand-out.jpg" alt="">
-            <h2 class="title title--little">Stand out to the right audience</h2>
-            <p class="p--normal">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-            <a class="main__link stand-out__link" href="#">learn more</a>
+            <div class="left">
+                <img class=" section-stand-out section__stand-out--img" src="resources/images/photos/image-stand-out.jpg" alt="">
+            </div>
+
+            <div class="right">
+                <h2 class="title title--little">Stand out to the right audience</h2>
+                <p class="p--normal">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                <a class="main__link stand-out__link" href="#">learn more</a>
+            </div>
+            
         </section>
 
         <section class="section__graphic-design-photography">

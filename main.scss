@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .p--normal{
     padding: 50px;
     font-family: 'Barlow', sans-serif;
@@ -81,62 +85,85 @@ h2,h3{
 
 .section__transform{
     background-color: #FFFBF8;
-    h2{
-        font-family: 'Fraunces', serif;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 49.32px;
-        letter-spacing: -0.29px;
-        padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    padding: 0;
+    margin: 0;
+    .right{
+        grid-area: 1 / 2 / 2 / 3;
     }
-    &--img{
-        width: 100vw;
-        height: 50vh;
-        object-fit: cover;
+    
+    .left{
+        grid-area: 1 / 1 / 2 / 2;
+        h2{
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 49.32px;
+            letter-spacing: -0.29px;
+            padding: 30px;
+        }
+    
+        .transform__link{
+            display: inline-block;
+            padding-bottom: 40px;
+        }
+        .transform__link:after{
+            content: "";
+            width: 137px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: #fef2ba;
+            display: block;
+        }
     }
-    .transform__link{
-        display: inline-block;
-        padding-bottom: 40px;
-    }
-    .transform__link:after{
-        content: "";
-        width: 137px;
-        height: 10px;
-        border-radius: 10px;
-        background-color: #fef2ba;
-        display: block;
-    }
+    
 }
 
 
 .section__stand-out{
     background-color: #FFFBF8;
-    h2{
-        font-family: 'Fraunces', serif;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 49.32px;
-        letter-spacing: -0.29px;
-        padding: 30px;
-    }
-    &--img{
-        width: 100vw;
-        height: 50vh;
-        object-fit: cover;
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    padding: 0;
+    margin: 0;
 
-    .stand-out__link{
-        display: inline-block;
-        padding-bottom: 40px;
+    .left{
+        grid-area: 1 / 1 / 2 / 2;
     }
-    .stand-out__link:after{
-        content: "";
-        width: 137px;
-        height: 10px;
-        border-radius: 10px;
-        background-color: #ffdbd4;
-        display: block;
+    .right{
+        grid-area: 1 / 2 / 2 / 3;
+        h2{
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 49.32px;
+            letter-spacing: -0.29px;
+            padding: 30px;
+        }
+     
+    
+        .stand-out__link{
+            display: inline-block;
+            padding-bottom: 40px;
+        }
+        .stand-out__link:after{
+            content: "";
+            width: 137px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: #ffdbd4;
+            display: block;
+        }
     }
+    background-color: #FFFBF8;
+    
     
 }
 
